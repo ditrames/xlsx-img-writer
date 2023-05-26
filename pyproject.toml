@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "xlsx-img-writer"
+version = "0.1.0"
+description = "simple script to make a xlsx file from a image directory. pastes the images and their names in a columb"
+authors = ["max rickard <ditrames@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "xlsx_img_writer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
